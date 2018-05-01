@@ -1,0 +1,81 @@
+#app-login {
+  background: rgba(90, 85, 170, 1);
+  background: -moz-linear-gradient(45deg, rgba(90, 85, 170, 1) 0%, rgba(63, 60, 121, 1) 50%, rgba(36, 35, 72, 1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(90, 85, 170, 1)), color-stop(50%, rgba(63, 60, 121, 1)), color-stop(100%, rgba(36, 35, 72, 1)));
+  background: -webkit-linear-gradient(45deg, rgba(90, 85, 170, 1) 0%, rgba(63, 60, 121, 1) 50%, rgba(36, 35, 72, 1) 100%);
+  background: -o-linear-gradient(45deg, rgba(90, 85, 170, 1) 0%, rgba(63, 60, 121, 1) 50%, rgba(36, 35, 72, 1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(90, 85, 170, 1) 0%, rgba(63, 60, 121, 1) 50%, rgba(36, 35, 72, 1) 100%);
+  background: linear-gradient(45deg, rgba(90, 85, 170, 1) 0%, rgba(63, 60, 121, 1) 50%, rgba(36, 35, 72, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a55aa', endColorstr='#242348', GradientType=1);
+}
+
+#app-login-form {
+  background: rgba(54,68,89,1);
+  background: -moz-linear-gradient(top, rgba(54,68,89,1) 0%, rgba(36,46,62,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,68,89,1)), color-stop(100%, rgba(36,46,62,1)));
+  background: -webkit-linear-gradient(top, rgba(54,68,89,1) 0%, rgba(36,46,62,1) 100%);
+  background: -o-linear-gradient(top, rgba(54,68,89,1) 0%, rgba(36,46,62,1) 100%);
+  background: -ms-linear-gradient(top, rgba(54,68,89,1) 0%, rgba(36,46,62,1) 100%);
+  background: linear-gradient(to bottom, rgba(54,68,89,1) 0%, rgba(36,46,62,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#364459', endColorstr='#242e3e', GradientType=0 );
+  color: #ffffff;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+#app-login-form form {
+  padding-top: 25%;
+  width: 100%;
+  max-width: 330px;
+  margin:0px auto 0px auto;
+  font-family: 'Nunito';
+}
+
+#app-login-form form .avatar {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 55px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background: #f6f6f6;
+  padding: 15px;
+  box-shadow: 0px 2px 2px rgba(1, 1, 1, 0.5);
+}
+
+#app-login-form form .avatar img {
+  width: 100%;
+}
+
+#app-login-form form h3{
+  text-align: center;
+  padding-bottom: 35px;
+  font-family: 'Roboto';
+}
+
+#app-login-form form .form-group{
+  padding-bottom: 20px;
+}
+
+#app-login-form form .form-group input{
+  color: #ffffff;
+}
+
+#app-login-form form .form-check{
+  padding-bottom: 25px;
+}
+
+#app-login-form form .btn-primary{
+  background: #43425D;
+}
+
+#app-login-form form .btn-primary:hover{
+  background: #504F6C;
+}
+
+#app-login nav.navbar.bg-overlay{
+  background: rgba(90,85,170,0.1);
+}
